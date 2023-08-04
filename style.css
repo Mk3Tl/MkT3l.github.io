@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(243, 234, 222);
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    color: rgb(153, 153, 211);
+}
+.Box{
+    background-color: #fff;
+    justify-content: center;
+    margin: 10px 90px;
+    padding: 10px;
+}
+fieldset{
+    border: solid 1px;
+    border-left:transparent;
+    border-right:transparent ;
+    border-color: rgb(199, 238, 238);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h3{
+    margin-bottom: 0;
+}
+small{
+    color: rgb(148, 190, 190);
+}
+#End{
+    justify-content: center;
+    display: flex;
+    color: rgb(82, 110, 110);
+}
