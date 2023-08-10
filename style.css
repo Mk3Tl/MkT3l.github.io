@@ -1,20 +1,22 @@
 body{
-    background-color: rgb(243, 234, 222);
+    background-color: rgb(48, 43, 43);
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .center{
-    background-color: #fff;
     justify-content: center;
     display: flex;
-    color: rgb(153, 153, 211);
+    color: rgb(161, 238, 131);
+    font-family:Borel;
 }
 .Box{
-    background-color: #fff;
+    background-color:rgb(102, 88, 88);
+    color: white;
     justify-content: center;
     margin: 10px 90px;
+    border-radius: 5px;
     padding: 10px;
 }
 fieldset{
@@ -24,12 +26,18 @@ fieldset{
     border-color: rgb(199, 238, 238);
     margin-top: 40px;
     margin-bottom: 40px;
+    font-family: Ubuntu;
 }
 h3{
     margin-bottom: 0;
+    font-family: Borel;
 }
 small{
     color: rgb(148, 190, 190);
+    font-family: Ubuntu;
+}
+.postedBy{
+    font-family: Ubuntu;
 }
 #End{
     justify-content: center;
@@ -37,7 +45,7 @@ small{
     color: rgb(82, 110, 110);
 }
 #form{
-    border: solid 2px black;
+    border: solid 2px rgb(109, 104, 104);
     width: 300px;
     margin: 50px auto;
 }
@@ -45,26 +53,33 @@ small{
 #message{
     display: block;
     margin-bottom: 20px;
-    font-family: monospace;
+    font-family: Ubuntu;
     font-size: large;
     text-transform: uppercase;
+    border-radius: 5px;
 }
 legend{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Ubuntu,sans-serif;
     font-weight: bolder;
+    color: white;
 }
 label{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Borel;
+    color: white;
 }
 textarea{
     resize: none;
 }
 #submit{
     border: solid 1px rgb(104, 94, 94);
-    padding: 3px 5px    ;
+    padding: 3px 5px;
+    background-color:rgb(128, 75, 75);
+    color: white;
+    font-family:Ubuntu;
     border-radius: 4px;
 }
 #submit:hover{
     cursor: pointer;
-    border-color: black;
+    border-color: rgb(73, 66, 66);
+    background-color: rgb(110, 68, 68);
 }
