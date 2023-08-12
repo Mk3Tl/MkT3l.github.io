@@ -9,6 +9,10 @@ $(function(){
         }
     })
     $("#navbarShow").delay(1000).slideDown().delay(3000).fadeOut();
+    $("#new-blog").submit(function(event){
+        event.preventDefault();
+        $("#popUp").fadeIn().delay(2000).fadeOut();
+    })
     
     $("textarea").blur(function(){
         if($(this).val()==""){
@@ -18,9 +22,5 @@ $(function(){
         else{
             $(this).css('border','solid 1px black');
         }
-    })
-    $("#submit").click(function(){
-        var Message= $('#message').val();
-        
     })
 })

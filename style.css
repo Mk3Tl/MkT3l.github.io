@@ -15,6 +15,20 @@ body{
 #navbarShow a{
     color: red;
 }
+#popUp{
+    top: 30%;
+    right: 40%;
+    position: fixed;
+    background-color: #2d373de5;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    display: none;
+    margin: auto;
+    color: white;
+    font-family: Ubuntu;
+    font-size: larger;
+}
 
 .center{
     justify-content: center;
