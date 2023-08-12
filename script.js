@@ -8,6 +8,7 @@ $(function(){
             $(this).css('border','solid 1px black');
         }
     })
+    $("#navbarShow").delay(1000).slideDown().delay(3000).fadeOut();
     
     $("textarea").blur(function(){
         if($(this).val()==""){

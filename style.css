@@ -4,6 +4,17 @@ body{
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#navbarShow{
+    display: none;
+    background-color: yellow;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: larger;
+    padding: 2px;
+}
+#navbarShow a{
+    color: red;
+}
 
 .center{
     justify-content: center;
