@@ -23,4 +23,10 @@ $(function(){
             $(this).css('border','solid 1px black');
         }
     })
+    $("#btn").click(function(){
+        $("#hide").animate({height: "0px"});
+    })
+    $("#btn2").click(function(){
+        $("#hide").animate({height: "200px"});
+      });
 })
